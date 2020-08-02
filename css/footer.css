@@ -1,0 +1,76 @@
+.bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: white;
+  }
+.container-fluid {
+      padding-top: 10px;
+      padding-bottom: 70px;
+  }
+  /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+  footer{
+  	position:fixed;
+  	bottom: 0;
+    left:0;
+  	width: 100%;
+  }
+  .navbar-header{
+  	font-family: 'RedkostComicRegular';
+  	   font-weight: normal;
+  	   font-style: normal;
+  	 font-size: 30px;
+
+  }
+
+  ul {font-family: 'HankenBook';
+     font-weight: normal;
+     font-style: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #116466;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+   width: 100%;
+
+
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

@@ -1,0 +1,61 @@
+navbar-header{
+	font-family: 'RedkostComicRegular';
+	   font-weight: normal;
+	   font-style: normal;
+	 font-size: 30px;
+
+}
+
+ul {font-family: 'HankenBook';
+   font-weight: normal;
+   font-style: normal;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #116466;
+padding-left:50px;
+padding-right: 50px;
+padding-top: 0px;
+padding-bottom: 0px;
+ width: 100%;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}*{color: #fff;}
+
+.bg{background: url('../images/bb.jpg') repeat; width: 100%; height: 100vh;}
+
+
+.form-container{border: 0px solid #fff; padding: 30px 40px; margin-top: 10%;
+-webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.login_h{
+	background: url('../images/bb.jpg') repeat;
+	padding: 10px;
+	text-align: left;
+	color: white;
+	-webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+footer{
+	position:fixed;
+	bottom: 0;
+	left:0;
+	width: 100%;
+}
